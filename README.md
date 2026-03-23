@@ -1,0 +1,70 @@
+# Awesome Ageless FLOSS
+
+*Translations: [Català](README.ca.md)*
+
+A curated list of Free/Libre Open Source Software projects, not all at the OS-level, that stand for computers obeying their human mandate and thus oppose age verification and age gating laws.
+
+This list is maintained by [Protecció de la Frontera Electrònica](https://fronteraelectronica.cat), a [Catalan](https://en.wikipedia.org/wiki/Catalan_Republic) organization fighting for digital rights which believes that machines must do what human operators instruct them to do.
+
+## Contents
+
+- [Context](#context)
+- [Operating Systems](#operating-systems)
+- [System Software](#system-software)
+- [Firmware](#firmware)
+- [Hardware](#hardware)
+- [Resources](#resources)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Context
+
+Emerging legislation in multiple jurisdictions is shifting the burden of demographic age verification from web applications down to the operating system layer. Laws such as California's AB 1043 and Brazil's ECA Digital mandate that operating systems collect, store, and expose user birth dates through standardized APIs, transforming what was previously a neutral execution environment into an active agent of identity classification, and converting computers in to machines that refuse to do what they are instructed by a human to do just because the human in charge does not belong to a certain demographic.
+
+In the Linux ecosystem, this materialized when systemd merged [PR #40954](https://github.com/systemd/systemd/pull/40954), adding a `birthDate` field to its userdb JSON records. 
+
+The projects listed here reject this paradigm. They maintain that computing infrastructure must remain demographic-neutral, treating users as entities authenticated solely by permissions, not biological age.
+
+## Operating Systems
+
+Operating systems whose developers or publishers have taken a public stance against implementing age verification, or have taken active measures to avoid compliance.
+
+- [Ageless Linux](https://agelesslinux.org): A conversion script for Debian-based OS meant to be applied over a standard Debian 13 installation (or equivalent) that replaces OS identity metadata and deploys a stub age-verification API that deliberately returns an error and terminates. Designed strictly for "humans of indeterminate age." ([Statement](https://x.com/lundukejournal/status/2032951803134837237))
+- [Omarchy Linux](https://omarchy.org/): Arch Linux and Hyprland-based development environment created by David Heinemeier Hansson (DHH). The developer publicly dismissed AB 1043 as unenforceable and stated there are no plans to respond to it. ([Statement](https://x.com/lundukejournal/status/2029580164498108846))
+- [Artix Linux](https://artixlinux.org/): Rolling-release Arch-based distribution built entirely without systemd, using OpenRC, runit, or s6 as init systems. Issued the statement: "We'll NEVER require any verification or identification from the user." Architecturally immune to the userdb `birthDate` field since the init systems it ships have no centralized user metadata database. ([Statement](https://x.com/lundukejournal/status/2034776326901555488))
+- [Devuan Linux](https://www.devuan.org/): Systemd-free fork of Debian with official developer statements confirming refusal to implement age tracking. ([Statement](https://x.com/lundukejournal/status/2034697759291310115))
+- [GrapheneOS](https://grapheneos.org/): Privacy-hardened mobile OS based on AOSP (Android). Developers equated regional age mandates to authoritarian censorship, stating they are under no more obligation to filter the internet for California than for China. ([Statement](https://x.com/lundukejournal/status/2035073741613338964))
+- [Adenix GNU/Linux](https://www.adenixgnulinux.org/): Debian-ecosystem distribution maintained by J. Mazzullo. Frames age mandates as First Amendment violations and has petitioned upstream Debian for root-level tools to purge and permanently blacklist state-mandated surveillance packages. ([Statement](https://lists.debian.org/debian-legal/2026/03/msg00022.html))
+- [Vendefoul Wolf Linux](https://vendefoul-wolf-linux.sourceforge.io/index_en.html): Developer statements confirming refusal to implement age verification. ([Statement](https://x.com/lundukejournal/status/2035390136356077822), [#2](https://x.com/vendefoulwolf/status/2035441292520386852))
+- [FreeDOS](https://freedos.org/): Open-source DOS-compatible OS. Project coordinators reject the imposition of demographic surveillance on legacy command-line architectures. ([Statement](https://x.com/lundukejournal/status/2034770975309361583))
+
+These projects resist by obstructing and preemptively blocking access from jurisdictions with age verification laws or by revoking their software license for residents of those jurisdictions.
+
+- [MidnightBSD](https://www.midnightbsd.org/): FreeBSD-derived desktop OS. Modified its COPYRIGHT file to explicitly revoke the software license for residents of jurisdictions requiring OS-level age verification: Brazil effective immediately, California effective January 1, 2027. ([License](https://github.com/MidnightBSD/src?tab=License-1-ov-file), [Statement](https://x.com/midnightbsd/status/2030992394703732872))
+- [Arch Linux 32](https://archlinux32.org/): Community-driven 32-bit fork of Arch Linux. Implemented IP-level blocking of all Brazilian traffic and forbids usage in Brazil and California to avoid catastrophic fines. ([Statement](https://x.com/lundukejournal/status/2033896030178029675))
+
+## System Software
+
+Forks and patches that remove age-verification infrastructure from upstream codebases.
+
+- [Liberated systemd](https://github.com/jeffrey-sardina/systemd): Fork of systemd maintained by Jeffrey Sardina that removes the `birthDate` field and all associated parsing, storage, and display code from userdb. Created after upstream systemd merged [PR #40954](https://github.com/systemd/systemd/pull/40954) adding the field, and the lead maintainer [closed a community revert attempt](https://github.com/systemd/systemd/pull/41179) without merging. Retains full code parity with upstream in all other respects.
+
+## Firmware
+
+- [DB48X](https://48calc.org/): Open-source calculator firmware whose developers openly rejected age tracking, underscoring the overreach of legislation broad enough to encompass non-general-purpose devices. ([Statement](https://github.com/c3d/db48x/blob/dev/LEGAL-NOTICE.md), [#2](https://x.com/lundukejournal/status/2027358439991615715))
+
+## Hardware
+
+- [Ageless Device](https://agelesslinux.org/hardware.html): A series of RISC-V-based computing devices (Milk-V Duo S, SG2000 SoC with 0.5 TOPS NPU) in three tiers ranging from $6 to $18, pre-flashed with Ageless Linux and labeled as AB 1043 noncompliant. Designed to be handed to children at STEM fairs, libraries, and maker events as an act of civil disobedience. Build instructions and hardware designs are released under the Unlicense.
+
+## Resources
+
+- [DoesItAgeVerify](https://github.com/BryanLunduke/DoesItAgeVerify): Maintained by Bryan Lunduke. A running list tracking the age verification compliance status of open-source operating systems. Covers projects planning to implement, projects refusing, and the current state of enacted and proposed legislation.
+
+## Contributing
+
+Contributions are very welcome. If you know of a FLOSS project that has taken a public stance against age verification, not necessarely at the OS-level, please open a pull request adding it to the appropriate section. Please kindly include a link to the developer statement or relevant source.
+
+## License
+
+[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
