@@ -56,6 +56,7 @@ Bifurcacions i pedaços que eliminen la infraestructura de verificació d'edat d
 - [GSYT-Productions/systemd-fork](https://github.com/GSYT-Productions/systemd-fork): bifurcació de systemd de [GSYT Productions](https://github.com/GSYT-Productions), l'empresa que fa BunnyPad. Es descriu com «el gestor de sistema i serveis systemd, sense l'estúpida verificació d'edat».
 - [fightthesystemd](https://github.com/Pingasmaster/fightthesystemd): bifurcació de systemd d'Adrian Noyes, especialista en ciberseguretat defensiva. Es descriu com «systemd sense les ximpleries: sense verificació d'edat ni lighthouse integrat».
 - [systemd-saneagecheck](https://github.com/HaplessIdiot/systemd-saneagecheck): bifurcació de systemd de Collin (HaplessIdiot), desenvolupador aficionat a Steam Deck i OpenMandriva Linux. Es descriu com «el gestor de sistema i serveis systemd amb opcions per eludir la verificació d'edat i configurar-ne la freqüència de consulta».
+- [unshitted-systemd](https://github.com/Codiak540/unshitted-systemd): bifurcació de systemd de Codiak540. Es descriu com «una bifurcació de systemd que aspira a millorar-lo. Demandeu-me, Califòrnia».
 
 ## Microprogramari
 

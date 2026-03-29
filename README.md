@@ -56,6 +56,7 @@ Forks and patches that remove age-verification infrastructure from upstream code
 - [GSYT-Productions/systemd-fork](https://github.com/GSYT-Productions/systemd-fork): Fork of systemd by [GSYT Productions](https://github.com/GSYT-Productions), the company behind BunnyPad. Described as "The systemd System and Service Manager, without the stupid Age Verification."
 - [fightthesystemd](https://github.com/Pingasmaster/fightthesystemd): Fork of systemd by Adrian Noyes, defensive cybersecurity specialist. Described as "Systemd without the nonsense: no age verification, no lighthouse built-in."
 - [systemd-saneagecheck](https://github.com/HaplessIdiot/systemd-saneagecheck): Fork of systemd by Collin (HaplessIdiot), a hobbyist developer on Steam Deck and OpenMandriva Linux. Described as "The systemd System and Service Manager with age verification bypass and polling rate options for said feature."
+- [unshitted-systemd](https://github.com/Codiak540/unshitted-systemd): Fork of systemd by Codiak540. Described as "A fork of systemd aiming to make SystemD better. Sue me California."
 
 ## Firmware
 
