@@ -38,6 +38,7 @@ Operating systems whose developers or publishers have taken a public stance agai
 - [Vendefoul Wolf Linux](https://vendefoul-wolf-linux.sourceforge.io/index_en.html): Developer statements confirming refusal to implement age verification. ([Statement](https://x.com/lundukejournal/status/2035390136356077822), [#2](https://x.com/vendefoulwolf/status/2035441292520386852))
 - [FreeDOS](https://freedos.org/): Open-source DOS-compatible OS. Project coordinators reject the imposition of demographic surveillance on legacy command-line architectures. ([Statement](https://x.com/lundukejournal/status/2034770975309361583))
 - [Golden Dog Linux](https://goldendoglinux.org/): Lead developer Alexia Michelle stated the project will not implement age verification, citing adherence to open source standards. (Statement was published as an Instagram story and is no longer available; its existence was verified by [Protecció de la Frontera Electrònica](https://fronteraelectronica.cat).)
+- [MX Linux](https://mxlinux.org/): Debian-based desktop distribution. The development team stated that no one on the team wants to implement age verification, citing concerns about user privacy, feasibility, and consistency with open source principles. ([Statement](https://linuxiac.com/mx-linux-takes-clear-stance-against-age-verification-requirements/))
 
 These projects resist by obstructing and preemptively blocking access from jurisdictions with age verification laws or by revoking their software license for residents of those jurisdictions.
 
