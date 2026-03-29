@@ -53,6 +53,7 @@ Bifurcacions i pedaços que eliminen la infraestructura de verificació d'edat d
 - [systemd-fuck-california](https://github.com/Queer-Coded-LGBTQ/systemd-fuck-california): bifurcació de systemd de [Queer Coded](https://queercoded.lgbt/) que elimina la verificació d'edat. Es descriu com «systemd, però sense les ximpleries d'edat que hi han afegit».
 - [paramazo/systemd](https://github.com/paramazo/systemd): bifurcació de systemd de paramazo, l'autor de la [PR de reversió #41179](https://github.com/systemd/systemd/pull/41179) que Poettering va tancar sense fusionar. La reversió argumentava que l'emmagatzematge de dates de naixement crea una nova categoria de dades sensibles, que les distribucions comunitàries no tenen cap voluntat d'actuar com a autoritats d'identitat i que ja existeix precedent de no-compliment per sobre de mesures a mitges.
 - [ganitam/systemd](https://github.com/ganitam/systemd): bifurcació de systemd presa just abans de l'addició de la verificació d'edat, d'un desenvolupador de [Ganitam](https://ganitam.in/). La descripció a GitHub expressa l'esperança que desenvolupadors i mantenidors més hàbils facin el mateix (és a dir, anima altra gent a bifurcar també ells systemd per evitar-ne les restriccions d'edat).
+- [GSYT-Productions/systemd-fork](https://github.com/GSYT-Productions/systemd-fork): bifurcació de systemd de [GSYT Productions](https://github.com/GSYT-Productions), l'empresa que fa BunnyPad. Es descriu com «el gestor de sistema i serveis systemd, sense l'estúpida verificació d'edat».
 
 ## Microprogramari
 
