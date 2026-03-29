@@ -50,6 +50,7 @@ Forks and patches that remove age-verification infrastructure from upstream code
 
 - [Liberated systemd](https://github.com/jeffrey-sardina/systemd): Fork of systemd maintained by Jeffrey Sardina that removes the `birthDate` field and all associated parsing, storage, and display code from userdb. Created after upstream systemd merged [PR #40954](https://github.com/systemd/systemd/pull/40954) adding the field, and the lead maintainer [closed a community revert attempt](https://github.com/systemd/systemd/pull/41179) without merging. Retains full code parity with upstream in all other respects.
 - [systemd-no-age-verification](https://github.com/r4shsec/systemd-no-age-verification): Fork of systemd by cybersecurity researcher R4shSec that removes the age verification introduced via [PR #40978](https://github.com/systemd/systemd/pull/40978). ([Statement](https://r4shsec.github.io/posts/how_to_remove_systemd_age_verification/))
+- [systemd-fuck-california](https://github.com/Queer-Coded-LGBTQ/systemd-fuck-california): Fork of systemd by [Queer Coded](https://queercoded.lgbt/) that removes age verification. Described as "systemd, but without age bs added in."
 
 ## Firmware
 
