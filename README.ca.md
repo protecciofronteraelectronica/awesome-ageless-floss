@@ -49,6 +49,7 @@ Aquests projectes s'hi oposen de manera obstaculitzadora i preventiva: bloquegen
 Bifurcacions i pedaços que eliminen la infraestructura de verificació d'edat de les bases de codi originals.
 
 - [Liberated systemd](https://github.com/jeffrey-sardina/systemd): bifurcació (*fork*) de systemd mantinguda per Jeffrey Sardina que elimina el camp `birthDate` i tot el codi associat d'anàlisi, emmagatzematge i visualització del userdb. Sardina la va crear després que el systemd original fusionés la [PR #40954](https://github.com/systemd/systemd/pull/40954) que afegia el camp i el mantenidor principal [tanqués un intent de reversió de la comunitat](https://github.com/systemd/systemd/pull/41179) sense fusionar-lo, de forma que, efectivament, el `systemd` original ara fa verificació d'edat. Manté paritat de codi completa amb l'original en tots els altres aspectes.
+- [systemd-no-age-verification](https://github.com/r4shsec/systemd-no-age-verification): bifurcació de systemd del investigador en ciberseguretat R4shSec que elimina la verificació d'edat introduïda mitjançant la [PR #40978](https://github.com/systemd/systemd/pull/40978). ([Declaració](https://r4shsec.github.io/posts/how_to_remove_systemd_age_verification/))
 
 ## Microprogramari
 
