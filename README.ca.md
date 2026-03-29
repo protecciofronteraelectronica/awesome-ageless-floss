@@ -45,7 +45,6 @@ Sistemes operatius amb desenvolupadors o editors que han pres partit públicamen
 
 Aquests projectes s'hi oposen de manera obstaculitzadora i preventiva: bloquegen l'accés des de jurisdiccions amb lleis de verificació d'edat o en revoquen la llicència de programari per als seus residents.
 
-- [MidnightBSD](https://www.midnightbsd.org/): sistema operatiu d'escriptori derivat de FreeBSD. Va modificar el seu fitxer COPYRIGHT per revocar explícitament la llicència de programari als residents de jurisdiccions que exigeixen verificació d'edat al sistema operatiu: Brasil amb efecte immediat, Califòrnia a partir del primer de gener de 2027. ([Llicència](https://github.com/MidnightBSD/src?tab=License-1-ov-file), [Declaració](https://x.com/midnightbsd/status/2030992394703732872))
 - [Arch Linux 32](https://archlinux32.org/): bifurcació de 32 bits d'Arch Linux mantinguda per la comunitat. Va implementar el bloqueig per IP de tot el trànsit brasiler i en prohibeix l'ús al Brasil i a Califòrnia per evitar multes. ([Declaració](https://x.com/lundukejournal/status/2033896030178029675))
 
 ## Programari de sistema

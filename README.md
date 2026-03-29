@@ -45,7 +45,6 @@ Operating systems whose developers or publishers have taken a public stance agai
 
 These projects resist by obstructing and preemptively blocking access from jurisdictions with age verification laws or by revoking their software license for residents of those jurisdictions.
 
-- [MidnightBSD](https://www.midnightbsd.org/): FreeBSD-derived desktop OS. Modified its COPYRIGHT file to explicitly revoke the software license for residents of jurisdictions requiring OS-level age verification: Brazil effective immediately, California effective January 1, 2027. ([License](https://github.com/MidnightBSD/src?tab=License-1-ov-file), [Statement](https://x.com/midnightbsd/status/2030992394703732872))
 - [Arch Linux 32](https://archlinux32.org/): Community-driven 32-bit fork of Arch Linux. Implemented IP-level blocking of all Brazilian traffic and forbids usage in Brazil and California to avoid catastrophic fines. ([Statement](https://x.com/lundukejournal/status/2033896030178029675))
 
 ## System Software
