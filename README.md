@@ -37,6 +37,7 @@ Operating systems whose developers or publishers have taken a public stance agai
 - [Adenix GNU/Linux](https://www.adenixgnulinux.org/): Debian-ecosystem distribution maintained by J. Mazzullo. Frames age mandates as First Amendment violations and has petitioned upstream Debian for root-level tools to purge and permanently blacklist state-mandated surveillance packages. ([Statement](https://lists.debian.org/debian-legal/2026/03/msg00022.html))
 - [Vendefoul Wolf Linux](https://vendefoul-wolf-linux.sourceforge.io/index_en.html): Developer statements confirming refusal to implement age verification. ([Statement](https://x.com/lundukejournal/status/2035390136356077822), [#2](https://x.com/vendefoulwolf/status/2035441292520386852))
 - [FreeDOS](https://freedos.org/): Open-source DOS-compatible OS. Project coordinators reject the imposition of demographic surveillance on legacy command-line architectures. ([Statement](https://x.com/lundukejournal/status/2034770975309361583))
+- [Golden Dog Linux](https://goldendoglinux.org/): Lead developer Alexia Michelle stated the project will not implement age verification, citing adherence to open source standards. (Statement was published as an Instagram story and is no longer available; its existence was verified by [Protecció de la Frontera Electrònica](https://fronteraelectronica.cat).)
 
 These projects resist by obstructing and preemptively blocking access from jurisdictions with age verification laws or by revoking their software license for residents of those jurisdictions.
 
