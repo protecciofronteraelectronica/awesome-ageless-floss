@@ -52,6 +52,7 @@ Forks and patches that remove age-verification infrastructure from upstream code
 - [systemd-no-age-verification](https://github.com/r4shsec/systemd-no-age-verification): Fork of systemd by cybersecurity researcher R4shSec that removes the age verification introduced via [PR #40978](https://github.com/systemd/systemd/pull/40978). ([Statement](https://r4shsec.github.io/posts/how_to_remove_systemd_age_verification/))
 - [systemd-fuck-california](https://github.com/Queer-Coded-LGBTQ/systemd-fuck-california): Fork of systemd by [Queer Coded](https://queercoded.lgbt/) that removes age verification. Described as "systemd, but without age bs added in."
 - [paramazo/systemd](https://github.com/paramazo/systemd): Fork of systemd by paramazo, the author of the upstream [revert PR #41179](https://github.com/systemd/systemd/pull/41179) that Poettering closed without merging. The revert argued that birth date storage creates a new class of sensitive user data, that community-driven distributions have no desire to act as identity authorities, and that precedent already exists for non-compliance over half-measures.
+- [ganitam/systemd](https://github.com/ganitam/systemd): Fork of systemd taken just before the age verification addition, by [Ganitam](https://ganitam.in/) developer. The GitHub description expresses hope that more skilled developers and maintainers will do the same (i.e., encourages others to fork systemd to avoid its age restrictions).
 
 ## Firmware
 
