@@ -9,12 +9,12 @@ This list is maintained by [Protecció de la Frontera Electrònica](https://fron
 ## Contents
 
 - [Context](#context)
-- [Operating Systems](#operating-systems)
-- [System Software](#system-software)
-- [Infrastructure](#infrastructure)
 - [Firmware](#firmware)
 - [Hardware](#hardware)
+- [Infrastructure](#infrastructure)
+- [Operating Systems](#operating-systems)
 - [Resources](#resources)
+- [System Software](#system-software)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -25,6 +25,20 @@ Emerging legislation in multiple jurisdictions is shifting the burden of demogra
 In the Linux ecosystem, this materialized when systemd merged [PR #40954](https://github.com/systemd/systemd/pull/40954), adding a `birthDate` field to its userdb JSON records. 
 
 The projects listed here reject this paradigm. They maintain that computing infrastructure must remain demographic-neutral, treating users as entities authenticated solely by permissions, not biological age.
+
+## Firmware
+
+- [DB48X](https://48calc.org/): Open-source calculator firmware whose developers openly rejected age tracking, underscoring the overreach of legislation broad enough to encompass non-general-purpose devices. ([Statement](https://github.com/c3d/db48x/blob/dev/LEGAL-NOTICE.md), [#2](https://x.com/lundukejournal/status/2027358439991615715))
+
+## Hardware
+
+- [Ageless Device](https://agelesslinux.org/hardware.html): A series of RISC-V-based computing devices (Milk-V Duo S, SG2000 SoC with 0.5 TOPS NPU) in three tiers ranging from $6 to $18, pre-flashed with Ageless Linux and labeled as AB 1043 noncompliant. Designed to be handed to children at STEM fairs, libraries, and maker events as an act of civil disobedience. Build instructions and hardware designs are released under the Unlicense.
+
+## Infrastructure
+
+Self-hostable tools that resist age-verification laws by geofencing or blocking access from restricted jurisdictions rather than complying.
+
+- [fahrengit-451](https://github.com/aarmea/fahrengit-451): Self-hostable, Forgejo-based code hosting (deployed with Docker Compose) that geofences restricted jurisdictions and returns HTTP 451 ("Unavailable For Legal Reasons") to visitors from them. It combines Forgejo with an nginx GeoIP2 blocking layer and automated certificate management, letting maintainers enforce "Not for use in California" (or elsewhere) at the access layer instead of removing code or implementing age verification.
 
 ## Operating Systems
 
@@ -53,6 +67,10 @@ These projects resist by obstructing and preemptively blocking access from juris
 
 - [Arch Linux 32](https://archlinux32.org/): Community-driven 32-bit fork of Arch Linux. Implemented IP-level blocking of all Brazilian traffic and forbids usage in Brazil and California to avoid catastrophic fines. ([Statement](https://x.com/lundukejournal/status/2033896030178029675))
 
+## Resources
+
+- [DoesItAgeVerify](https://github.com/BryanLunduke/DoesItAgeVerify): Maintained by Bryan Lunduke. A running list tracking the age verification compliance status of open-source operating systems. Covers projects planning to implement, projects refusing, and the current state of enacted and proposed legislation.
+
 ## System Software
 
 Forks and patches that remove age-verification infrastructure from upstream codebases.
@@ -70,24 +88,6 @@ Forks and patches that remove age-verification infrastructure from upstream code
 - [systemd-no-age-verification](https://github.com/r4shsec/systemd-no-age-verification): Fork of systemd by cybersecurity researcher R4shSec that removes the age verification introduced via [PR #40978](https://github.com/systemd/systemd/pull/40978). ([Statement](https://r4shsec.github.io/posts/how_to_remove_systemd_age_verification/))
 - [systemd-saneagecheck](https://github.com/HaplessIdiot/systemd-saneagecheck): Fork of systemd by Collin (HaplessIdiot), a hobbyist developer on Steam Deck and OpenMandriva Linux. Described as "The systemd System and Service Manager with age verification bypass and polling rate options for said feature."
 - [unshitted-systemd](https://github.com/Codiak540/unshitted-systemd): Fork of systemd by Codiak540. Described as "A fork of systemd aiming to make SystemD better. Sue me California."
-
-## Infrastructure
-
-Self-hostable tools that resist age-verification laws by geofencing or blocking access from restricted jurisdictions rather than complying.
-
-- [fahrengit-451](https://github.com/aarmea/fahrengit-451): Self-hostable, Forgejo-based code hosting (deployed with Docker Compose) that geofences restricted jurisdictions and returns HTTP 451 ("Unavailable For Legal Reasons") to visitors from them. It combines Forgejo with an nginx GeoIP2 blocking layer and automated certificate management, letting maintainers enforce "Not for use in California" (or elsewhere) at the access layer instead of removing code or implementing age verification.
-
-## Firmware
-
-- [DB48X](https://48calc.org/): Open-source calculator firmware whose developers openly rejected age tracking, underscoring the overreach of legislation broad enough to encompass non-general-purpose devices. ([Statement](https://github.com/c3d/db48x/blob/dev/LEGAL-NOTICE.md), [#2](https://x.com/lundukejournal/status/2027358439991615715))
-
-## Hardware
-
-- [Ageless Device](https://agelesslinux.org/hardware.html): A series of RISC-V-based computing devices (Milk-V Duo S, SG2000 SoC with 0.5 TOPS NPU) in three tiers ranging from $6 to $18, pre-flashed with Ageless Linux and labeled as AB 1043 noncompliant. Designed to be handed to children at STEM fairs, libraries, and maker events as an act of civil disobedience. Build instructions and hardware designs are released under the Unlicense.
-
-## Resources
-
-- [DoesItAgeVerify](https://github.com/BryanLunduke/DoesItAgeVerify): Maintained by Bryan Lunduke. A running list tracking the age verification compliance status of open-source operating systems. Covers projects planning to implement, projects refusing, and the current state of enacted and proposed legislation.
 
 ## Contributing
 
