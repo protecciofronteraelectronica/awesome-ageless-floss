@@ -11,6 +11,7 @@ This list is maintained by [Protecció de la Frontera Electrònica](https://fron
 - [Context](#context)
 - [Operating Systems](#operating-systems)
 - [System Software](#system-software)
+- [Infrastructure](#infrastructure)
 - [Firmware](#firmware)
 - [Hardware](#hardware)
 - [Resources](#resources)
@@ -69,6 +70,12 @@ Forks and patches that remove age-verification infrastructure from upstream code
 - [systemd-no-age-verification](https://github.com/r4shsec/systemd-no-age-verification): Fork of systemd by cybersecurity researcher R4shSec that removes the age verification introduced via [PR #40978](https://github.com/systemd/systemd/pull/40978). ([Statement](https://r4shsec.github.io/posts/how_to_remove_systemd_age_verification/))
 - [systemd-saneagecheck](https://github.com/HaplessIdiot/systemd-saneagecheck): Fork of systemd by Collin (HaplessIdiot), a hobbyist developer on Steam Deck and OpenMandriva Linux. Described as "The systemd System and Service Manager with age verification bypass and polling rate options for said feature."
 - [unshitted-systemd](https://github.com/Codiak540/unshitted-systemd): Fork of systemd by Codiak540. Described as "A fork of systemd aiming to make SystemD better. Sue me California."
+
+## Infrastructure
+
+Self-hostable tools that resist age-verification laws by geofencing or blocking access from restricted jurisdictions rather than complying.
+
+- [fahrengit-451](https://github.com/aarmea/fahrengit-451): Self-hostable, Forgejo-based code hosting (deployed with Docker Compose) that geofences restricted jurisdictions and returns HTTP 451 ("Unavailable For Legal Reasons") to visitors from them. It combines Forgejo with an nginx GeoIP2 blocking layer and automated certificate management, letting maintainers enforce "Not for use in California" (or elsewhere) at the access layer instead of removing code or implementing age verification.
 
 ## Firmware
 

@@ -11,6 +11,7 @@ Aquesta llista la manté la [Protecció de la Frontera Electrònica](https://fro
 - [Context](#context)
 - [Sistemes operatius](#sistemes-operatius)
 - [Programari de sistema](#programari-de-sistema)
+- [Infraestructura](#infraestructura)
 - [Microprogramari](#microprogramari)
 - [Maquinari](#maquinari)
 - [Recursos](#recursos)
@@ -69,6 +70,12 @@ Bifurcacions i pedaços que eliminen la infraestructura de verificació d'edat d
 - [systemd-no-age-verification](https://github.com/r4shsec/systemd-no-age-verification): bifurcació de systemd del investigador en ciberseguretat R4shSec que elimina la verificació d'edat introduïda mitjançant la [PR #40978](https://github.com/systemd/systemd/pull/40978). ([Declaració](https://r4shsec.github.io/posts/how_to_remove_systemd_age_verification/))
 - [systemd-saneagecheck](https://github.com/HaplessIdiot/systemd-saneagecheck): bifurcació de systemd de Collin (HaplessIdiot), desenvolupador aficionat a Steam Deck i OpenMandriva Linux. Es descriu com «el gestor de sistema i serveis systemd amb opcions per eludir la verificació d'edat i configurar-ne la freqüència de consulta».
 - [unshitted-systemd](https://github.com/Codiak540/unshitted-systemd): bifurcació de systemd de Codiak540. Es descriu com «una bifurcació de systemd que aspira a millorar-lo. Demandeu-me, Califòrnia».
+
+## Infraestructura
+
+Eines autoallotjables que s'oposen a les lleis de verificació d'edat amb geobloqueig o bloqueig de l'accés des de jurisdiccions restringides, en comptes de complir-les.
+
+- [fahrengit-451](https://github.com/aarmea/fahrengit-451): allotjament de codi basat en Forgejo, autoallotjable i desplegable amb Docker Compose, que geobloqueja les jurisdiccions restringides i retorna l'estat HTTP 451 («No disponible per motius legals») a qui hi accedeix des d'aquestes jurisdiccions. Combina Forgejo amb nginx i bloqueig per GeoIP2, a més de gestió automatitzada de certificats, i permet que els mantenidors apliquin el «No per fer servir a Califòrnia» (o on convingui) a la capa d'accés en comptes de treure codi o implementar la verificació d'edat.
 
 ## Microprogramari
 
