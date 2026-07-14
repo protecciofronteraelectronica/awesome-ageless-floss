@@ -8,6 +8,7 @@ This list is maintained by [Protecció de la Frontera Electrònica](https://fron
 
 ## Contents
 
+- [Browser and Browser Extensions](#browser-and-browser-extensions)
 - [Context](#context)
 - [Firmware](#firmware)
 - [Hardware](#hardware)
@@ -17,6 +18,12 @@ This list is maintained by [Protecció de la Frontera Electrònica](https://fron
 - [System Software](#system-software)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Browser and Browser Extensions
+
+Client-side browsers and browser extensions that bypass website age-verification gates.
+
+- [age-verification-bypass](https://github.com/helloyanis/age-verification-bypass): Firefox/Gecko browser extension by helloyanis, published on [addons.mozilla.org](https://addons.mozilla.org/firefox/addon/age-verification-bypass/) and also working on Tor Browser and LibreWolf (not Chrome). It intercepts the call that creates the age-verification popup on any site and rewrites it to fire a success callback automatically, and injects a script that strips the blurs and gates on NSFW content. Supported services include AgeChecker.net, AgeVerif.com, AliExpress, Bluesky, and Reddit NSFW communities. The README frames it as "a proof of concept to show that age verification online is not a good idea," warns that uploaded IDs inevitably leak, and states "No data is ever being collected." MIT-licensed. ([Statement](https://github.com/helloyanis/age-verification-bypass))
 
 ## Context
 

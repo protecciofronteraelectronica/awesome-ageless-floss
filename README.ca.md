@@ -12,6 +12,7 @@ Aquesta llista la manté la [Protecció de la Frontera Electrònica](https://fro
 - [Infraestructura](#infraestructura)
 - [Maquinari](#maquinari)
 - [Microprogramari](#microprogramari)
+- [Navegadors i extensions de navegador](#navegadors-i-extensions-de-navegador)
 - [Programari de sistema](#programari-de-sistema)
 - [Recursos](#recursos)
 - [Sistemes operatius](#sistemes-operatius)
@@ -39,6 +40,12 @@ Eines autoallotjables que s'oposen a les lleis de verificació d'edat amb geoblo
 ## Microprogramari
 
 - [DB48X](https://48calc.org/): microprogramari de calculadora de codi obert. Els desenvolupadors van rebutjar directament el rastreig d'edat, cosa que posa en relleu l'excés d'una legislació prou àmplia per abraçar dispositius que no són de propòsit general. ([Declaració](https://github.com/c3d/db48x/blob/dev/LEGAL-NOTICE.md), [#2](https://x.com/lundukejournal/status/2027358439991615715))
+
+## Navegadors i extensions de navegador
+
+Navegadors i extensions de navegador, del costat del client, que eviten els murs de verificació d'edat dels llocs web.
+
+- [age-verification-bypass](https://github.com/helloyanis/age-verification-bypass): extensió de navegador per a Firefox/Gecko, de helloyanis, publicada a [addons.mozilla.org](https://addons.mozilla.org/firefox/addon/age-verification-bypass/) i que també funciona al Tor Browser i al LibreWolf (no pas al Chrome). Intercepta la crida que crea la finestra emergent de verificació d'edat a qualsevol lloc web i la reescriu perquè enviï automàticament una resposta d'èxit, i injecta un script que treu els difuminats i els bloquejos del contingut per a adults. Els serveis compatibles inclouen AgeChecker.net, AgeVerif.com, AliExpress, Bluesky i les comunitats NSFW de Reddit. El README el presenta com «una prova de concepte per demostrar que la verificació d'edat en línia no és una bona idea», adverteix que els documents d'identitat que s'hi pugen acaben filtrats tard o d'hora, i afirma que «no es recull cap dada». Llicència MIT. ([Declaració](https://github.com/helloyanis/age-verification-bypass))
 
 ## Programari de sistema
 
